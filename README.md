@@ -109,10 +109,43 @@
 ## Arrays
 
 1. What is an array?
+
+---
+
 2. Are arrays dynamic?
+
+- Arrays are not dynamic because you have to define the size of the array when creating it.
+
+---
+
 3. Can arrays have more than one dimension?
+
+- Yes, arrays can have multiple dimensions. Very common forms are two-dimensional arrays, three dimensions aren't used very often and more dimensions neither. But theoretically there can be x dimensions.
+
+---
+
 4. Do you need to know the size of arrays during compile time?
+
+- Yes, the size of arrays must be known in advance. Arrays get a size when declaring them. The size can't be changed then.
+
+---
+
 5. Which types can arrays have?
+
+- Arrays can contain each data type, like for example int/double/String. But the used type is always the same - mixing data types isn't possible.
+
+---
+
 6. Declare arrays in two different ways. At least one one-dimensional and one multidimensional array.
+
+   - First way:
+     `int numArray[] = {0, 2, 4, 6, 8};`
+     `String spielfeld[][] = {{"O", "O", "O", "O", "O"}, {"O", "O", "O", "O", "O"} }`
+   - Second way:
+     `int numArray[] = new int[5];`
+     `String spielfeld[][] = new spielfeld[5]][5];`
+
+---
+
 7. Sort an arbitrary integer array. Use any algorithm you like.
 8. Print out a two-dimensional array.
