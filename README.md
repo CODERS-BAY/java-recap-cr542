@@ -148,4 +148,15 @@
 ---
 
 7. Sort an arbitrary integer array. Use any algorithm you like.
+
+- Please see the InsertionSort.java file uploaded to the repository :-)
+
+---
+
 8. Print out a two-dimensional array.
+
+- Please see the TwoDimArray.java file uploaded to the repository :-)
+
+---
+
+## Work done.
